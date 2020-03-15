@@ -1,0 +1,10 @@
+.idea/
+*.iml
+.pytest_cache
+**__pycache__**
+reports/
+*egg-info*
+.eggs
+rerun.txt
+venv*
+features/*.feature
