@@ -12,7 +12,7 @@ JiraConnector.download_features(
     # token='ASSERTTHAT_TOKEN',
     output_folder='./features',
     # Required for Jira Server only. Omit if using Jira Cloud version
-    # jira_server_url: 'https://mycompanyjira.com'
+    # jira_server_url='https://mycompanyjira.com'
     # Optional - all features downloaded by default - should be a valid JQL
     # jql = 'project = XX AND key in ('XXX-1')',
     # Optional - default automated (can be one of: manual/automated/both)
