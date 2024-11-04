@@ -15,6 +15,8 @@ JiraConnector.download_features(
     # jira_server_url='https://mycompanyjira.com'
     # Optional - all features downloaded by default - should be a valid JQL
     # jql = 'project = XX AND key in ('XXX-1')',
+    # Optional - tags
+    # tags='@xxx'
     # Optional - default automated (can be one of: manual/automated/both)
     # mode='both',
     # Optional - Detail the proxy with the specific scheme e.g.'10.10.10.10:1010'
