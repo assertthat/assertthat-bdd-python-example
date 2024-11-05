@@ -8,7 +8,7 @@ JiraConnector.download_features(
     # Optional can be supplied as environment variable ASSERTTHAT_SECRET_KEY
     secret_key='ASSERTTHAT_SECRET_KEY',
     # Optional - default ./features
-    # Optional can be supplied as environment variable ASSERTTHAT_TOKEN
+    # Optional can be supplied as environment variable ASSERTTHAT_TOKEN for Server and Data Center only
     # token='ASSERTTHAT_TOKEN',
     output_folder='./features',
     # Required for Jira Server only. Omit if using Jira Cloud version
